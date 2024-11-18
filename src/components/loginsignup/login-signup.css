@@ -1,0 +1,113 @@
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #b7e5db, #03432d);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Common Container Styling */
+.auth-container {
+  max-width: 900px;
+  margin-top:100px;
+  margin-bottom: 100px;
+  margin-left: 80px;
+  width: 90%;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #555555;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s ease;
+}
+#kaamkabutton{
+  background-color: #59837c;
+}
+input:focus {
+  border-color: #6a11cb;
+  box-shadow: 0 0 6px rgba(106, 17, 203, 0.3);
+}
+/* 
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background: linear-gradient(135deg, #e7e7e7, #fcfcfc);
+  color: #133027;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+} */
+
+button:hover {
+  background: linear-gradient(135deg, #131821, #6a11cb);
+}
+
+p {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #333333;
+}
+
+p a {
+  color: #2575fc;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+p a:hover {
+  color: #6a11cb;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .auth-container {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  input {
+    font-size: 12px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
